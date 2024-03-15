@@ -1,0 +1,16 @@
+body {
+    background-color: bisque;
+    font-family: 'Nunito Sans';
+}
+
+.loginButtons {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 1.5em;
+}
+
+ #username, #password {
+    display:flex;
+    justify-content: center;
+    padding: 0.5em;
+}

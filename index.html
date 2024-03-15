@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Journal</title>
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="index.css">
+    
+</head>
+
+<!-- Navigation bar setup -->
+<body>
+    <header>
+        <a href="#" style="text-decoration: none; color: #333"></a>
+            <h1>Keepsake</h1>
+        </a>
+   
+        <nav class="navbar">
+            <a href="story.html" style="text-decoration: none; color: #333" id="story">
+                Story of the day</a>
+            <a href="ponder.html" style="text-decoration: none; color: #333" id="ponder">
+            What makes you ponder?</a>
+            <a href="difView.html" style="text-decoration: none; color: #333" id="view">
+                A look from a different view</a>
+            <a href="login.html" style="text-decoration: none; color: #333" id="login">
+                Login</a>
+     </nav>
+    </header>
+
+    <!-- Previous Entries setup -->
+    <div class="entries">
+        <h3>Entries</h3>
+      
+        <ol>
+            <a href="entry1.html" style="text-decoration: underline; color: #333">
+            <li class="list-entries">Previous 1</li>
+        </a>
+        <a href="entry2.html" style="text-decoration: underline; color: #333">
+            <li class="list-entries">Previous 2</li>
+            </a>
+            <a href="#" style="text-decoration: underline; color: #333">
+            <li class="list-entries">Previous 3</li>
+            </a>
+            <a href="#" style="text-decoration: underline; color: #333">
+            <li class="list-entries">Previous 4</li>
+            </a>
+            <a href="#" style="text-decoration: underline; color: #333">
+            <li class="list-entries">Previous 5</li>
+            </a>
+        </ol>
+    </div>
+
+    <!-- Journal Box setup -->
+    <div>
+        <h2>What's on your mind?</h2>
+        
+    <form class="textbox" id="inputText">
+        <textarea id="textarea" placeholder="Begin flow."></textarea>
+    </form>
+    </div>
+
+    <!-- Submit button setup -->
+    <div class="button">
+        <button id="button-clear" onclick="copyText()">
+            Clear mind.</button>
+    </div>
+
+  <!--gives clear&text transfor button function-->
+    <script src="index.js"></script>
+
+   
+
+</body>
+</html>

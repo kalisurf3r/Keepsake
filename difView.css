@@ -1,0 +1,41 @@
+h1 {
+    text-align: center;
+    border: 2px solid #000;
+    font-family: 'Nunito Sans';
+}
+
+body {
+    background-color: bisque;
+}
+
+.story {
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 20px;
+    margin-right: 20px;
+    border: 1px dashed #000;
+    height: 10em;
+    font-family: 'Nunito Sans';
+}
+
+.rating {
+    text-align: center;
+    font-family: 'Nunito Sans';
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#coin {
+    height: 500px;
+    width: 500px;
+    margin: 4em;
+}
+
+.button {
+    text-align: center;
+}

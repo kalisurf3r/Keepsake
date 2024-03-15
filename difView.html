@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ALookFromADifView</title>
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="difView.css">
+</head>
+<body>
+    <!--Header-->
+    <a href="#" style="text-decoration: none; color: #333">
+        <h1>What Makes You Ponder?</h1>
+    </a> 
+    
+    <!--Paragraph content for story-->
+    <div class="story">
+        <p>
+            Here in this page, we are going to place an unpopular view. Or 
+            maybe a perspective that has not garnered as much attention.
+            We see western culture to be the standard way of thinking. 
+            There's been great thinkers yes, but why stop at standard?
+            Why not broaden views and seek challenge the norm? 
+            Does a coin really only have two ways to view it?
+        </p>
+    </div>
+
+     <!--Bottom Rating-->
+    <div class="rating"> 
+        <label for="rating">What did you think? :</label>
+        <input type="range" id="ratingSlider" min="1" max="5" value="3">
+        <span id="ratingValue">3</span> <!-- Display the current rating value -->
+    </div>
+
+    <script>
+        var slider = document.getElementById("ratingSlider");
+        var output = document.getElementById("ratingValue");
+        output.innerHTML = slider.value;
+        
+        slider.oninput = function() {
+          output.innerHTML = this.value;
+        }
+        </script>
+
+     <!--image setup-->
+    <div class="container">
+        <img src="coin.webp" alt="Roman Coin" id="coin">
+    </div>
+   
+       <!--button setup-->
+        <div class="button">
+            <a href="index.html" style="text-decoration: none; color: #333">
+          <button>Return Home</button>   </a> 
+        </div>   
+</body>
+</html>

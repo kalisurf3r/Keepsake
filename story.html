@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StoryOfTheDay</title>
+
+    <link rel="stylesheet" href="story.css">
+</head>
+<body>
+    <!--Header-->
+    <a href="#" style="text-decoration: none; color: #333">
+        <h1>Story of the Day</h1>
+    </a> 
+    
+    <!--Paragraph content for story-->
+    <div class="story">
+        <p>
+            This is going to contain a fascinating story. A story that 
+            is eye opening and mind bending. But bending in a way that we 
+            as humans need to practice a lot more often. Become wise again, 
+            truly think about what are the impacts of our daily activities. 
+        </p>
+    </div>
+
+     <!--Bottom Rating-->
+    <div class="rating"> 
+        <label for="rating">What did you think? :</label>
+        <input type="range" id="ratingSlider" class="slider" min="1" max="5" value="3">
+         <span id="ratingValue">3</span><!-- Display the current rating value -->
+    </div>
+
+    <script>
+        var slider = document.getElementById("ratingSlider");
+        var output = document.getElementById("ratingValue");
+        output.innerHTML = slider.value;
+        
+        slider.oninput = function() {
+          output.innerHTML = this.value;
+        }
+        </script>
+
+
+
+     <!--image setup-->
+    <div class="container">
+        <img src="greatWave.jpg" alt="The Great Wave" id="wave">
+    </div>
+   
+       <!--button setup-->
+        <div class="button">
+            <a href="index.html" style="text-decoration: none; color: #333">
+                <button id="retHome">Return Home</button>
+            </a>
+        </div>   
+      
+
+</body>
+</html>

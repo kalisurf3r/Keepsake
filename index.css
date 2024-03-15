@@ -1,0 +1,54 @@
+h1 {
+    text-align: center;
+    font-family: 'Nunito Sans';
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+    border: 2px solid #000;
+    font-family: 'Nunito Sans';
+
+}
+
+.entries {
+    display: inline-block;
+    margin-top: 5em;
+    border: 1px dashed #000;
+    font-family: 'Nunito Sans';
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Nunito Sans';
+}
+
+.textbox {
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
+
+textarea {
+    width: 500px;
+    height: 400px;
+    font-family: 'Nunito Sans';
+}
+
+.button {
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    margin-top: 2em;
+    font-family: 'Nunito Sans';
+}
+
+.list-entries {
+    margin: 1em;
+}
+
+body {
+    background-color: bisque;
+}

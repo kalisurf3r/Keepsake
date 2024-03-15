@@ -1,0 +1,20 @@
+body {
+    background-color: bisque;
+}
+
+h1 {
+    border: 2px solid #000;
+}
+
+.sign-up {
+    display: flex;
+    justify-content: space-around;
+    margin: 1.5em;
+    border: 1px dashed #000;
+    padding-inline: 2em;
+}
+
+.submit {
+    display: flex;
+    justify-content: center;
+}

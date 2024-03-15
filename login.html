@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <h1>Login~</h1>
+    
+    <!--Login config-->
+    <form id="loginForm">
+        <input type="text" id="username" placeholder="Username">
+        <input type="password" id="password" placeholder="Password">
+        <button type="submit">Login</button>
+        <button type="submit" id="logout">Logout</button>
+    </form>
+    <div id="usernameDisplay" style="display: none;">
+        <script src="login.js"></script>
+    </div>
+      
+        
+    
+    
+    <!--Button config-->
+    <div class="loginButtons">
+        <a href="index.html" style="text-decoration: none; color: #333">
+            <button>Home</button>
+        </a>
+       <a href="createAccount.html" style="text-decoration: none; color: #333">
+        <button>Create Accont</button>
+       </a> 
+        <button>Reset Password</button>
+    </div>
+   
+</body>
+</html>

@@ -1,0 +1,39 @@
+h1 {
+    text-align: center;
+    border: 2px solid #000;
+}
+
+body {
+    background-color: bisque;
+    font-family: 'Nunito Sans';
+}
+
+.story {
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 20px;
+    margin-right: 20px;
+    border: 1px dashed #000;
+    height: 10em;
+}
+
+.rating {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#bedroom {
+    height: 500px;
+    width: 500px;
+    margin: 4em;
+}
+
+.button {
+    text-align: center;
+}
